@@ -2,7 +2,7 @@
 // Enable error reporting
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
-$google_redirect_url = 'http://localhost/test.php';
+$google_redirect_url = 'https://webdevmetube.herokuapp.com/';
 //start session
 session_start();
 //include google api files
