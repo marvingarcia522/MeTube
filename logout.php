@@ -1,6 +1,6 @@
 <?php
 
-    require_once"test.php";
+    require_once"index.php";
     unset($_SESSION['token']);
     $gClient->revokeToken();
 
