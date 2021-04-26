@@ -49,7 +49,7 @@ if ($gClient->getAccessToken()) // Sign in
     $_SESSION['familyName'] = $user['familyName'];
     $_SESSION['givenName'] = $user['givenName'];
 
-    header("location:home.php");
+    header("location:http://localhost/metube/home.php");
 
 
     } catch (Exception $e) {
