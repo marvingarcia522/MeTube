@@ -59,7 +59,8 @@
                 <img src="bell.svg" class="notif-icon" alt="Notifications" />
             </a>
             <a href="#">
-                <img class="menu-channel-icon" src="icon.png" alt="Your Channel" />
+                 <image src="<?php echo $_SESSION['picture'] ?>" class="pic" alt="pic">
+               <-- <img class="menu-channel-icon" src="icon.png" alt="Your Channel" />-->
             </a>
         </div>
 
