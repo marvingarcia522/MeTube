@@ -2,7 +2,7 @@ $(function() {
 
     let searchTerm = "webdevelopment";
     let videoList = $("#videoList");
-    let apiKey = "AIzaSyB5KSDz_4x_HG6zz-FNgzQqpHyWseP4apw";
+    let apiKey = "AIzaSyC20QOvWv2E6jqheJzJrkQiBt0jk5P3uIU";
     let player = $("#player");
     clearVideoList();
     search(searchTerm);
