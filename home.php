@@ -50,17 +50,11 @@
         <div class="menu-icons">
 
             <a href="#">
-                <img src="video-plus.svg" class="upload-icon" alt="Upload Video" />
-            </a>
-            <a href="#">
-                <img src="apps.svg" class="app-icon" alt="Apps" />
-            </a>
-            <a href="#">
-                <img src="bell.svg" class="notif-icon" alt="Notifications" />
+                <b> <?php echo $_SESSION['givenName'] ?></b>
             </a>
             <a href="#">
                  <image src="<?php echo $_SESSION['picture'] ?>" class="pic" alt="pic">
-               <-- <img class="menu-channel-icon" src="icon.png" alt="Your Channel" />-->
+           
             </a>
         </div>
 
