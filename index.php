@@ -6,7 +6,7 @@ $google_redirect_url = 'index.php';
 //start session
 session_start();
 //include google api files
-echo ' <link rel="stylesheet"type="text/css" href="mystyle.css"/>';
+echo ' <link rel="stylesheet"type="text/css" href="app.css"/>';
 include_once 'vendor/autoload.php';
 // New Google client
 $gClient = new Google_Client();
