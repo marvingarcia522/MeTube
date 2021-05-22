@@ -11,7 +11,6 @@
                     color: rgb(58, 56, 56);
                 }
                 
-                h5,
                 h6 {
                     font-size: 16px;
                     font-weight: bold;
@@ -85,7 +84,28 @@
                     gap: 1rem;
                     margin-right: .5rem;
                 }
-
+			.dropdown{
+			display:none;
+			position:absolute;
+			right:153px;
+			top:68px;
+			list-style:none;
+			min-width:100px;
+			z-index:1;
+		}
+			.dropdown a{
+			color:black;
+			padding:5px 5px;
+			text-decoration:none;
+			display:block;
+		}
+			.dropdown a:hover{
+			background-color:#000;
+			color:#fff;
+		}
+			.menu-icon:hover .dropdown{
+			display:block;
+		}
                 
                 .menu-channel-icon {
                     border-radius: 50%;
@@ -114,14 +134,7 @@
                         margin-right: .5rem;
                     }
 			
-                    .menu-channel-icon,
-                    .app-icon,
-                    .notif-icon,
-                    .upload-icon {
-                        height: 20px;
-                        width: 20px;
-                        transition: all ease 0.35s;
-                    }
+                   
                     .form-control {
                         transition: all ease 0.35s;
                         height: 2rem;
@@ -133,17 +146,7 @@
                         margin-top: 4.4px;
                         transition: all ease 0.35s;
                     }
-                    .categories {
-                        margin-top: 70px;
-                        margin-bottom: 10px;
-                        margin-left: 20px;
-                    }
-                    .category-section {
-                        display: flex;
-                        overflow: hidden;
-                        font-size: 12px;
-                        position: flex;
-                    }
+                 
                 }
                 
                 @media(max-width:900px) {
@@ -160,37 +163,9 @@
                         gap: .6rem;
                         margin-right: .5rem;
                     }
-			.dropdown{
-			display:none;
-			position:absolute;
-			right:153px;
-			top:68px;
-			list-style:none;
-			min-width:100px;
-			z-index:1;
-		}
-			.dropdown a{
-			color:black;
-			padding:5px 5px;
-			text-decoration:none;
-			display:block;
-		}
-			.dropdown a:hover{
-			background-color:#000;
-			color:#fff;
-		}
-			.menu-icon:hover .dropdown{
-			display:block;
-		}
+			
 
-                    .menu-channel-icon,
-                    .app-icon,
-                    .notif-icon,
-                    .upload {
-                        height: 18px;
-                        width: 18px;
-                        transition: all ease 0.35s;
-                    }
+                    
                     .form-control {
                         transition: all ease 0.35s;
                         height: 1.75rem;
@@ -206,17 +181,7 @@
                         height: .95rem;
                         margin-bottom: 10rem;
                     }
-                    .categories {
-                        margin-top: 70px;
-                        margin-bottom: 10px;
-                        margin-left: 20px;
-                    }
-                    .category-section {
-                        display: flex;
-                        overflow: hidden;
-                        font-size: 10px;
-                        position: flex;
-                    }
+                    
                 }
 
 
