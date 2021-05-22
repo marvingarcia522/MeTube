@@ -257,7 +257,5 @@
 .menu:hover .dropdown{
 	display:block;
 }
-.menu:hover .user{
-	background-color:transparent;
-}
+
 
