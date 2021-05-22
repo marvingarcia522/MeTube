@@ -126,6 +126,9 @@
                     margin-top: 1rem;
                     display: flex;
                 }
+ .container-fluid{
+                    margin-top: 67px;
+                 }
                 
                 @media(max-width:1080px) {
                     .metube-logo {
