@@ -98,7 +98,22 @@
                     margin-top: 1rem;
                     display: flex;
                 }
-                .dropdown{
+                
+                @media(max-width:1080px) {
+                    .metube-logo {
+                        height: 30px;
+                        transition: all ease 0.35s;
+                        margin-top: 4.4px;
+                    }
+                      .menu-icons {
+                        display: grid;
+                        grid-template-columns: repeat(4, auto);
+                        align-items: center;
+                        gap: .6rem;
+                        margin-right: .5rem;
+			 position:relative;
+                    }
+			.dropdown{
 			display:none;
 			position:absolute;
 			right:153px;
@@ -120,21 +135,10 @@
 			.menu-icon:hover .dropdown{
 			display:block;
 		}
+			.menu-icon:hover .pic{
+			background-color:transparent;
+		}
 
-                @media(max-width:1080px) {
-                    .metube-logo {
-                        height: 30px;
-                        transition: all ease 0.35s;
-                        margin-top: 4.4px;
-                    }
-                    .menu-icons {
-                        display: grid;
-                        grid-template-columns: repeat(4, auto);
-                        align-items: center;
-                        gap: .8rem;
-                        margin-right: .5rem;
-                    }
-			
                    
                     .form-control {
                         transition: all ease 0.35s;
@@ -163,8 +167,33 @@
                         align-items: center;
                         gap: .6rem;
                         margin-right: .5rem;
+			 position:relative;
                     }
-			
+			.dropdown{
+			display:none;
+			position:absolute;
+			right:153px;
+			top:68px;
+			list-style:none;
+			min-width:100px;
+			z-index:1;
+		}
+			.dropdown a{
+			color:black;
+			padding:5px 5px;
+			text-decoration:none;
+			display:block;
+		}
+			.dropdown a:hover{
+			background-color:#000;
+			color:#fff;
+		}
+			.menu-icon:hover .dropdown{
+			display:block;
+		}
+			.menu-icon:hover .pic{
+			background-color:transparent;
+		}
                     
                     .form-control {
                         transition: all ease 0.35s;
