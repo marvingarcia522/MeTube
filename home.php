@@ -55,9 +55,11 @@
                  <image src="<?php echo $_SESSION['picture'] ?>" class="pic" alt="pic">
            
             </a>
+		<div class="menu">    
            <div class="dropdown">
 		<a class="logout" href="logout.php">LOG OUT</a>
 		</div>
+		 </div>
         </div>
 		
 		
