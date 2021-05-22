@@ -76,48 +76,7 @@
                     background-color: #00000099;
                     border-color: #495057;
                 }
-                
-                .categories {
-                    margin-top: 80px;
-                    margin-bottom: 10px;
-                    margin-left: 20px;
-                }
-                
-                .category-section {
-                    display: flex;
-                    overflow: hidden;
-                    font-size: 15px;
-                    position: flex;
-                }
-                
-                .category {
-                    margin-right: 1rem;
-                    word-wrap: none;
-                    white-space: nowrap;
-                    border: 2px solid rgb(61, 61, 61);
-                    border-radius: 900px;
-                    background-color: #c5bbbb;
-                    padding: .5rem 1rem;
-                    font-size: inherit;
-                    cursor: pointer;
-                    transition: background-color 150ms;
-                    color: rgb(69, 70, 70);
-                }
-                
-                .category:hover {
-                    background-color: rgb(241, 133, 133);
-                    color: #EEE
-                }
-                
-                .category.active {
-                    background-color: #606060;
-                    color: white;
-                    border-color: #EEE;
-                }
-                
-                .category:last-child {
-                    margin-right: 0;
-                }
+           
                 
                 .menu-icons {
                     display: grid;
@@ -126,6 +85,28 @@
                     gap: 1rem;
                     margin-right: .5rem;
                 }
+			.dropdown{
+			display:none;
+			position:absolute;
+			right:153px;
+			top:68px;
+			list-style:none;
+			min-width:100px;
+			z-index:1;
+		}
+			.dropdown a{
+			color:black;
+			padding:5px 5px;
+			text-decoration:none;
+			display:block;
+		}
+			.dropdown a:hover{
+			background-color:#000;
+			color:#fff;
+		}
+			.menu-icon:hover .dropdown{
+			display:block;
+		}
                 
                 .menu-channel-icon {
                     border-radius: 50%;
@@ -153,6 +134,28 @@
                         gap: .8rem;
                         margin-right: .5rem;
                     }
+			.dropdown{
+			display:none;
+			position:absolute;
+			right:153px;
+			top:68px;
+			list-style:none;
+			min-width:100px;
+			z-index:1;
+		}
+			.dropdown a{
+			color:black;
+			padding:5px 5px;
+			text-decoration:none;
+			display:block;
+		}
+			.dropdown a:hover{
+			background-color:#000;
+			color:#fff;
+		}
+			.menu-icon:hover .dropdown{
+			display:block;
+		}
                     .menu-channel-icon,
                     .app-icon,
                     .notif-icon,
