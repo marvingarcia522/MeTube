@@ -49,15 +49,9 @@
 
         <div class="menu-icons">
 
-            <a href="#">
-                <b> <?php echo $_SESSION['givenName'] ?></b>
-            </a>
-            <a href="#">
-                 <image src="<?php echo $_SESSION['picture'] ?>" class="pic" alt="pic">
            
-            </a>
         </div>
-<div class="menu">
+		<div class="menu">
 		<a data-page="profile" href="#profile"><img src="user.png" class="user"></a>
 		<div class="dropdown">
 		<a class="logout" href="logout.php">LOG OUT</a>
