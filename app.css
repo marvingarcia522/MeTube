@@ -235,5 +235,29 @@
                     }
                 }
 
-
+.dropdown{
+	display:none;
+	position:absolute;
+	right:153px;
+	top:68px;
+	list-style:none;
+	min-width:100px;
+	z-index:1;
+}
+.dropdown a{
+	color:black;
+	padding:5px 5px;
+	text-decoration:none;
+	display:block;
+}
+.dropdown a:hover{
+	background-color:#000;
+	color:#fff;
+}
+.menu:hover .dropdown{
+	display:block;
+}
+.menu:hover .user{
+	background-color:transparent;
+}
 

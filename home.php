@@ -2,7 +2,7 @@
      session_start();
 ?>
 
-<!--<body>
+
 
 
        <div class="container">
@@ -13,7 +13,7 @@
       <br>
       <a class="logout" href="logout.php">Logout</a>
             </div>
-</body>-->
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -59,23 +59,14 @@
         </div>
 
     </nav>
-
-    <div class="categories">
-
-        <section class="category-section">
-
-            <button class="category active">All</button>
-            <button class="category">Most Popular</button>
-            <button class="category">Education</button>
-            <button class="category">Gaming</button>
-            <button class="category">Sports</button>
-
-
-    </div>
-
-    </section>
-
-    </div>
+	
+	<div class="menu">
+		<a data-page="profile" href="#profile"><img src="user.png" class="user"></a>
+		<div class="dropdown">
+		<a class="logout" href="logout.php">LOG OUT</a>
+		</div>
+		</div>
+		
     <div class="container-fluid mb-2">
         <div class="row">
 
