@@ -58,7 +58,6 @@
            
         </div>
 		<div class="menu">
-		<a data-page="profile" href="#profile"><img src="user.png" class="user"></a>
 		<div class="dropdown">
 		<a class="logout" href="logout.php">LOG OUT</a>
 		</div>
