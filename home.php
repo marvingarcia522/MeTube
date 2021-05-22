@@ -48,16 +48,14 @@
         </div>
 
         <div class="menu-icons">
-	 <a href="#">
-                <b> <?php echo $_SESSION['givenName'] ?></b>
-            </a>
+	            <p id="givenName"> <?php echo $_SESSION['givenName'] ?></p>
             <a href="#">
                  <image src="<?php echo $_SESSION['picture'] ?>" class="pic" alt="pic">
+
+            </a>
            <div class="dropdown">
 		<a class="logout" href="logout.php">LOG OUT</a>
 		</div>
-			 </a>    
-           
         </div>
 		
 		
