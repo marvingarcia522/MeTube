@@ -4,7 +4,7 @@
 
 
 
-
+<!--
        <div class="container">
       <image src="<?php echo $_SESSION['picture'] ?>" class="pic" alt="pic">
       <p>Hello </p>
@@ -13,7 +13,7 @@
       <br>
       <a class="logout" href="logout.php">Logout</a>
             </div>
-
+-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -57,15 +57,15 @@
            
             </a>
         </div>
-
-    </nav>
-	
-	<div class="menu">
+<div class="menu">
 		<a data-page="profile" href="#profile"><img src="user.png" class="user"></a>
 		<div class="dropdown">
 		<a class="logout" href="logout.php">LOG OUT</a>
 		</div>
 		</div>
+    </nav>
+	
+	
 		
     <div class="container-fluid mb-2">
         <div class="row">
