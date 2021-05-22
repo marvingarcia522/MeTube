@@ -48,7 +48,13 @@
         </div>
 
         <div class="menu-icons">
-
+	 <a href="#">
+                <b> <?php echo $_SESSION['givenName'] ?></b>
+            </a>
+            <a href="#">
+                 <image src="<?php echo $_SESSION['picture'] ?>" class="pic" alt="pic">
+           
+            </a>
            
         </div>
 		<div class="menu">
