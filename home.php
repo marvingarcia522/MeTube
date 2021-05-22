@@ -54,12 +54,10 @@
             <a href="#">
                  <image src="<?php echo $_SESSION['picture'] ?>" class="pic" alt="pic">
            
-            </a>
-		<div class="menu">    
+			 </a>    
            <div class="dropdown">
 		<a class="logout" href="logout.php">LOG OUT</a>
 		</div>
-		 </div>
         </div>
 		
 		
