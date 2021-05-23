@@ -26,30 +26,30 @@
                 #player {
                     border-radius: 5px;
                 }
-                
+
                 .media img {
                     width: 168px;
                     height: 94px;
                 }
                 /* select */
-                
+
                 #videoList li:hover {
                     border-right: 10px solid rgb(44, 44, 44);
                     cursor: pointer;
                 }
-                
+
                 #videoList li {
                     border-right: 3px solid rgb(141, 141, 141);
                     cursor: pointer;
                     margin-right: 0%;
                 }
-                
+
                 #videoList :hover {
                     cursor: pointer;
                     background-color: rgb(255, 255, 255);
                     margin-right: 0%;
                 }
-                
+
                 .sitelogo {
                     display: flex;
                     justify-content: space-between;
@@ -64,72 +64,50 @@
                     z-index: 1;
                     height:10vh;
                 }
-                
+
                 .metube-logo {
                     height: 40px;
                     margin-left: 10px;
                     border-radius: 5px;
                 }
-                
+
                 .btn-danger {
                     color: #fff;
                     background-color: #b0bbbf99;
                     border-color: #495057;
                 }
-                
+
                 .btn-danger:hover {
                     color: #fff;
                     background-color: #00000099;
                     border-color: #495057;
                 }
-           
-                
+
+
                 .menu-icons {
-                    display: grid;
-                    grid-template-columns: repeat(4, auto);
-                    align-items: center;
-                    gap: 1rem;
-                    margin-right: .5rem;
+                   display: flex;
+                   padding: 5px 10px;
+                   height: 9vh;
+                   align-content: center;
+                   justify-content: center;
+                   align-items: center;
                 }
-			.dropdown{
-			display:none;
-			position:absolute;
-			right:153px;
-			top:68px;
-			list-style:none;
-			min-width:100px;
-			z-index:1;
-		}
-			.dropdown a{
-			color:black;
-			padding:5px 5px;
-			text-decoration:none;
-			display:block;
-		}
-			.dropdown a:hover{
-			background-color:#000;
-			color:#fff;
-		}
-			.menu-icon:hover .dropdown{
-			display:block;
-		}
-                
-                .menu-channel-icon {
-                    border-radius: 50%;
-                    width: 36px;
-                    height: 36px;
-                    background-color: #AAA;
-                    position: flex;
+                #givenName{
+                    font-size: 18px;
+                     height: 38px;
+                     width: 85px;
+                     font-weight: bolder;
+                     margin-top: 23px;
                 }
-                
+
                 .row {
                     margin-top: 1rem;
                     display: flex;
                 }
- .container-fluid{
+                .container-fluid{
                     margin-top: 67px;
                  }
-                
+
                 @media(max-width:1080px) {
                     .metube-logo {
                         height: 30px;
@@ -137,42 +115,15 @@
                         margin-top: 4.4px;
                     }
                     .menu-icons {
-                        display: grid;
-                        grid-template-columns: repeat(4, auto);
-                        align-items: center;
-                        gap: .8rem;
-                        margin-right: .5rem;
+                       display: flex;
+                       padding: 5px 10px;
+                       height: 9vh;
+                       align-content: center;
+                       justify-content: center;
+                       align-items: center;
                     }
-			.dropdown{
-			display:none;
-			position:absolute;
-			right:153px;
-			top:68px;
-			list-style:none;
-			min-width:100px;
-			z-index:1;
-		}
-			.dropdown a{
-			color:black;
-			padding:5px 5px;
-			text-decoration:none;
-			display:block;
-		}
-			.dropdown a:hover{
-			background-color:#000;
-			color:#fff;
-		}
-			.menu-icon:hover .dropdown{
-			display:block;
-		}
-                    .menu-channel-icon,
-                    .app-icon,
-                    .notif-icon,
-                    .upload-icon {
-                        height: 20px;
-                        width: 20px;
-                        transition: all ease 0.35s;
-                    }
+
+
                     .form-control {
                         transition: all ease 0.35s;
                         height: 2rem;
@@ -196,7 +147,7 @@
                         position: flex;
                     }
                 }
-                
+
                 @media(max-width:900px) {
                     .metube-logo {
                         height: 25px;
@@ -205,42 +156,13 @@
                         border-radius: 5px;
                     }
                     .menu-icons {
-                        display: grid;
-                        align-items: center;
-                        gap: .6rem;
-                        margin-right: .5rem;
-                    }
-			.dropdown{
-			display:none;
-			position:absolute;
-			right:153px;
-			top:68px;
-			list-style:none;
-			min-width:100px;
-			z-index:1;
-		}
-			.dropdown a{
-			color:black;
-			padding:5px 5px;
-			text-decoration:none;
-			display:block;
-		}
-			.dropdown a:hover{
-			background-color:#000;
-			color:#fff;
-		}
-			.menu-icon:hover .dropdown{
-			display:block;
-		}
+                        display: flex;
+                        padding: 5px 10px;
+                        height: 9vh;
+                        align-content: center;
+                         justify-content: center;
+                        align-items: center; }
 
-                    .menu-channel-icon,
-                    .app-icon,
-                    .notif-icon,
-                    .upload {
-                        height: 18px;
-                        width: 18px;
-                        transition: all ease 0.35s;
-                    }
                     .form-control {
                         transition: all ease 0.35s;
                         height: 1.75rem;
