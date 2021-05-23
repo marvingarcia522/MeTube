@@ -6,8 +6,10 @@
                     background-color: rgb(235, 232, 232);
                 }
                 .pic{
-                    border-radius: 59%;
-                    height: 7vh;
+                    border-radius: 50%;
+                    width: 36px;
+                    height: 36px;
+                   position: flex;
 }
                 }
 
@@ -62,7 +64,7 @@
                     top: 0;
                     width: 100%;
                     z-index: 1;
-                    height:10vh;
+                    height:7vh;
                 }
 
                 .metube-logo {
@@ -93,7 +95,7 @@
                    align-items: center;
                 }
                 #givenName{
-                    font-size: 18px;
+                    font-size: 16px;
                      height: 38px;
                      width: 85px;
                      font-weight: bolder;
@@ -178,6 +180,12 @@
                        justify-content: center;
                        align-items: center;
                     }
+                  .pic{
+                    height: 22px;
+            width: 22px;
+            transition: all ease 0.35s;
+                    
+                    }
 
 
                     .form-control {
@@ -244,6 +252,12 @@
                         overflow: hidden;
                         font-size: 10px;
                         position: flex;
+                    }
+                    .pic{
+                    height: 20px;
+            width: 20px;
+            transition: all ease 0.35s;
+                    
                     }
                 }
 
