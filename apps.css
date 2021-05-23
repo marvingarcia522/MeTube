@@ -126,7 +126,7 @@
             background-color:#000;
             color:#fff;
         }
-            .pic:hover .dropdown{
+            .menu-icons a:hover .dropdown{
             display:block;
         }
 
