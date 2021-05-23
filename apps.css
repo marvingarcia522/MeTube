@@ -93,6 +93,7 @@
                    align-items: center;
                 }
                 #givenName{
+                  display:none;
                     font-size: 18px;
                      height: 38px;
                      width: 85px;
