@@ -93,7 +93,6 @@
                    align-items: center;
                 }
                 #givenName{
-                  display:none;
                     font-size: 18px;
                      height: 38px;
                      width: 85px;
@@ -108,28 +107,62 @@
                 .container-fluid{
                     margin-top: 67px;
                  }
-          .dropdown{
-            display:none;
-            position:absolute;
-            right:153px;
-            top:68px;
-            list-style:none;
-            min-width:100px;
-            z-index:1;
-        }
+                 .user{
+                     height:8vh;
+                 }
+                  .dropdown{
+                     display: none;
+                     position: absolute;
+                    right: 10px;
+                     top: 10px;
+                 list-style: none;
+                     max-width: 229px;
+                 z-index: 2;
+                         background-color: rgba(203, 203, 203, 1);
+                         text-align: center;
+                     height: 166px;
+                     box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 1px 3px 1px;
+                          }
+
             .dropdown a{
-            color:black;
-            padding:5px 5px;
-            text-decoration:none;
-            display:block;
+            color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+    width: 40%;
+    border: solid;
+    border-width: thin;
+    margin-left: 69px;
+    font-size: 79%;
+    font-weight: bold;
         }
             .dropdown a:hover{
             background-color:#000;
             color:#fff;
         }
-            .menu-icons a:hover .dropdown{
+            .menu-icons:hover .dropdown{
             display:block;
         }
+
+
+        .pic1{
+            height: 10vh;
+            border-radius: 77%;
+              position: relative;
+            top: 4px;
+        }
+        #email{
+             font-size: 85%;
+             padding: 20px 10px 10px 10px;
+             font-weight: bold;
+              cursor: pointer;
+        }
+            .menu{
+                display: flex;
+                flex-direction: row;
+                align-content: center;
+                 align-items: center;
+            }
 
                 @media(max-width:1080px) {
                     .metube-logo {
