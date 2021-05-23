@@ -4,17 +4,6 @@
 
 
 
-<!--
-       <div class="container">
-      <image src="<?php echo $_SESSION['picture'] ?>" class="pic" alt="pic">
-      <p>Hello </p>
-      <b> <?php echo $_SESSION['givenName'] ?></b>
-      <b> <?php echo $_SESSION['familyName'] ?></b>
-      <br>
-      <a class="logout" href="logout.php">Logout</a>
-            </div>
--->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,7 +13,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="apps.css">
+    <link rel="stylesheet" href="app.css">
     <title>Metube</title>
 </head>
 
@@ -46,23 +35,23 @@
 
 
         </div>
-
+        <div class="menu">
+         <p id="givenName"> <?php echo $_SESSION['givenName'] ?></p>
         <div class="menu-icons">
-	            <p id="givenName"> <?php echo $_SESSION['givenName'] ?></p>
-            <a href="#">
-                 <image src="<?php echo $_SESSION['picture'] ?>" class="pic" alt="pic">
-
-            </a>
-           <div class="dropdown">
-		<a class="logout" href="logout.php">LOG OUT</a>
-		</div>
+        <a data-page="profile" href="#profile"><img src="<?php echo $_SESSION['picture'] ?>" class="pic"></a>
+        <div class="dropdown">
+            <img src="<?php echo $_SESSION['picture'] ?>" class="pic1">
+            <p id="email"> <?php echo $_SESSION['email'] ?></p>
+          <a class="logout" href="logout.php">LOG OUT</a>
         </div>
-		
-		
+          </div>
+        </div>
+
+
     </nav>
-	
-	
-		
+
+
+
     <div class="container-fluid mb-2">
         <div class="row">
 
