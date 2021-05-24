@@ -10,7 +10,7 @@ echo ' <link rel="stylesheet"type="text/css" href="mystyle.css"/>';
 include_once 'vendor/autoload.php';
 // New Google client
 $gClient = new Google_Client();
-$gClient->setApplicationName('ApplicationName');
+$gClient->setApplicationName('MeTube');
 $gClient->setAuthConfigFile('client_secrets.json');
 $gClient->addScope(Google_Service_Oauth2::USERINFO_PROFILE);
 $gClient->addScope(Google_Service_Oauth2::USERINFO_EMAIL);
